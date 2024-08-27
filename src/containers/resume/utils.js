@@ -1,42 +1,49 @@
 export const data = {
-    experience: [
-      {
-        title: "Consultant",
-        subTitle: "Miami, FL",
-        description:
-          " User Experience, Visual Design",
-      },
-      {
-        title: "Senior Consultant",
-        subTitle: "London, UK",
-        description:
-          "Web development, Databases, Backend developement",
-      },
-      {
-        title: "Project Manager",
-        subTitle: "Bangalore, INDIA",
-        description:
-          "Creative Direction Project Management, Team Leading",
-      },
-    ],
-    education: [
-      {
-        title: "Secondary",
-        subTitle: "ABC School",
-        description:
-          "10th Grade",
-      },
-      {
-        title: "Higher Secondary",
-        subTitle: "ABC School of higher education",
-        description:
-          "12th Grade in Science",
-      },
-      {
-        title: "B.Tech",
-        subTitle: "XYZ institute of technology",
-        description:
-          "Bachelor of technology in computer science",
-      },
-    ],
-  };
+  experience: [
+    {
+      title: "Full Stack Developer",
+      subTitle: "-ATS",
+      description: "Deployment, Design, Optimization",
+      date: "April 2024 - Present",
+    },
+    {
+      title: "FTTH DESIGNER",
+      subTitle: "-Digital Group",
+      description: "Network, Planning, Implementation",
+      date: "May 2023 - March 2024",
+    },
+    {
+      title: "WORDPRESS DEVELOPER",
+      subTitle: "-DMI",
+      description: "Customization, Optimization, Maintenance",
+      date: "June 2022 - May 2023",
+    },
+    
+  ],
+  education: [
+    {
+      title: "Software Engineer",
+      // subTitle: "-Metropolitan University",
+      description: "Metropolitan University of Tirana",
+      date: "2019 - 2023",
+    },
+    {
+      title: "Full Stack Dev Course",
+     subTitle: "UDEMY ",
+      description: "C#, ASP.NET MVC, MS SQL, C# OOP",
+      date: "Present",
+    },
+    {
+      title: "Web Developer",
+      subTitle: "Python & Django",
+      description: "Dominusoft, Albania",
+      date: "December 2022 - March 2023",
+    },
+    {
+      title:"Conference",
+      subTitle:"LDA Salesforce Albania",
+      description:"Albanian Dreamin'",
+      date:"April 2024",
+    }
+  ],
+};

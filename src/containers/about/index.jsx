@@ -9,28 +9,34 @@ import { FaDev, FaDatabase } from "react-icons/fa";
 const personalDetails = [
   {
     label: "Name",
-    value: "John Doe",
+    value: "Albulena Lala",
   },
   {
     label: "Age",
-    value: "27",
+    value: "24",
   },
   {
     label: "Address",
-    value: "India",
+    value: "Tirana, Albania",
   },
   {
     label: "Email",
-    value: "demo@example.com",
+    value: "albulenalala5@gmail.com",
   },
   {
-    label: "Contact No",
-    value: "+11 3456789056",
+    label:"Github",
+    value:"https://github.com/Albulenalala",
   },
+  {
+    label:"Linkedin",
+    value: "www.linkedin.com/in/albulena-lala-68888b1b7"
+  }
+
+
 ];
 
 const jobSummary =
-  "Seasoned and independent Front End Developer with 5 years of experience in blending the art of design with skill of programming to deliver an immersive and engaging user experience through efficient website development, proactive feature optimization, and relentless debugging. Very passionate about aesthetics and UI design. It is imperative that you provide a thorough and professional approach to your resume. As a Front End Developer you will be judged by your ability to use UX and UI concepts and follow design guidelines. It is about expressing your attention to detail and how you can help implement design ideas for your future employer";
+  "As a junior Full Stack Developer with a degree in Software Engineering, I bring a solid foundation in both front-end and back-end technologies. My skills include PHP, SQL Server, and C#, with practical experience in deploying and hosting applications. I’m proficient in React.js for creating dynamic user interfaces and experienced in web scraping with Python. Passionate about delivering seamless user experiences, I focus on feature optimization and effective problem-solving. Eager to contribute to innovative projects, I am committed to applying my skills and attention to detail in every development challenge. Currently, I am enhancing my expertise through a course in C#, ASP.NET MVC, and MS SQL, which also covers advanced topics in object-oriented programming and DevOps practices for efficient software deployment and hosting.";
 
 const About = () => {
   return (
@@ -52,7 +58,7 @@ const About = () => {
               transform: "translatex(0px)",
             }}
           >
-            <h3>Front End Developer</h3>
+            <h3>Software Developer</h3>
             <p>{jobSummary}</p>
           </Animate>
 

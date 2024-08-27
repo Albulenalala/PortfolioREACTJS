@@ -5,6 +5,10 @@ import ImageOne from "../../images/image1.jpg";
 import ImageTwo from "../../images/image2.jpg";
 import ImageThree from "../../images/image3.jpg";
 import ImageFour from "../../images/image4.jpg";
+import ImageFourth from "../../images/Capture.JPG";
+import Image12 from "../../images/Capture1.JPG";
+import Image14 from "../../images/Capture14.JPG";
+import Image13 from "../../images/Capture13.JPG";
 import ImageFive from "../../images/image5.jpg";
 import "./styles.scss";
 import { useState } from "react";
@@ -12,35 +16,61 @@ import { useState } from "react";
 const portfolioData = [
   {
     id: 2,
-    name: "Ecommerce",
+    name: "Online System Reservations ",
     image: ImageOne,
-    link: "",
+    link: "https://github.com/Albulenalala/drTech",
   },
   {
     id: 3,
-    name: "Notes App",
-    link: "",
+    name: "Winery Website",
+    link: "https://github.com/Albulenalala/winery",
     image: ImageTwo,
   },
   {
-    id: 2,
-    name: "Supplier Design",
-    image: ImageThree,
-    link: "",
-  },
-  {
-    id: 2,
-    name: "Todo App",
-    image: ImageFour,
-
-    link: "",
+    id: 3,
+    name: "My WebPortfolio",
+    image: ImageFive,
+    link: "/",
   },
   {
     id: 3,
-    name: "Shopping cart design",
-    image: ImageFive,
-    link: "",
+    name: "Traveling WP Site",
+    image: Image12,
+    link: "/",
   },
+  {
+    id: 2,
+    name: "Hostel Sytem Managment",
+    image: ImageThree,
+    link: "https://github.com/Albulenalala",
+  },
+  {
+    id: 2,
+    name: "WP Medical Website",
+    image: Image13,
+    link: "https://github.com/Albulenalala",
+  },
+  {
+    id: 2,
+    name: "Progress Bar",
+    image: ImageFour,
+    link: "https://github.com/Albulenalala/timer",
+  },
+  {
+    id: 2,
+    name: "Calculator",
+    image: ImageFourth,
+    link: "https://github.com/Albulenalala/calculator",
+  },
+  {
+    id: 2,
+    name: "Working on something new",
+    image: Image14,
+    link: "https://github.com/Albulenalala/calculator",
+  },
+
+  
+
 ];
 
 const filterData = [

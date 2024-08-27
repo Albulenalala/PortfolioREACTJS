@@ -1,20 +1,21 @@
-.resume{
+.resume {
     height: 100%;
 }
 
-.timeline{
+.timeline {
     display: flex;
     width: 100%;
     padding: 20px;
+    flex-wrap: wrap; // Ensure elements wrap on smaller screens
 
-    &__experience, &__education{
+    &__experience, &__education {
         width: 50%;
         gap: 2rem;
         display: flex;
         flex-direction: column;
         align-items: center;
 
-        &__header-text{
+        &__header-text {
             display: inline-block;
             color: var(--yellow-theme-sub-text-color);
             font-size: 22px;
@@ -27,7 +28,7 @@
             border-bottom: 2px solid var(--yellow-theme-main-color);
         }
 
-        &__header-text::before , &__header-text::after{
+        &__header-text::before, &__header-text::after {
             position: absolute;
             content: '';
             width: 2px;
@@ -36,49 +37,48 @@
             bottom: -1px;
         }
 
-        &__header-text::before{
+        &__header-text::before {
             left: 0;
         }
 
-        &__header-text::after{
+        &__header-text::after {
             right: 0;
         }
 
-        &__vertical-timeline-element{
+        &__vertical-timeline-element {
             padding: 0px 0px 30px 0px;
 
-            &:last-child{
+            &:last-child {
                 padding-bottom: 0px;
             }
         }
-        .vertical-timeline-element-title-wrapper{
+
+        .vertical-timeline-element-title-wrapper {
             display: flex;
             align-items: center;
 
-            h3,h4{
+            h3, h4 {
                 font-size: 16px;
             }
 
-            h4{
+            h4 {
                 margin-left: 8px;
             }
-
-
         }
 
-        .vertical-timeline-element-title-wrapper-description{
+        .vertical-timeline-element-title-wrapper-description {
             font-size: 18px;
         }
 
-        .vertical-timeline-element-content{
+        .vertical-timeline-element-content {
             box-shadow: none;
         }
 
-        .vertical-timeline-element-content-arrow{
+        .vertical-timeline-element-content-arrow {
             display: none;
         }
 
-        .vertical-timeline-element-date{
+        .vertical-timeline-element-date {
             opacity: 1;
             color: var(--yellow-theme-sub-text-color);
             font-size: 18px;
@@ -86,12 +86,43 @@
     }
 }
 
-@media only screen and (max-width : 768px){
-    .timeline{
+@media only screen and (max-width: 768px) {
+    .timeline {
         flex-direction: column;
-        &__experience, &__education{
+        padding: 10px; // Adjust padding for smaller screens
+
+        &__experience, &__education {
             width: 100%;
-            gap: 2rem;
+            gap: 1rem; // Reduce gap for smaller screens
+        }
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .timeline {
+        padding: 5px; // Further reduce padding for very small screens
+
+        &__experience, &__education {
+            gap: 0.5rem; // Further reduce gap for very small screens
+
+            &__header-text {
+                font-size: 18px; // Reduce font size for header text
+                padding: 3px 6px; // Adjust padding for smaller screens
+            }
+
+            .vertical-timeline-element-title-wrapper {
+                h3, h4 {
+                    font-size: 14px; // Reduce font size for titles
+                }
+            }
+
+            .vertical-timeline-element-title-wrapper-description {
+                font-size: 16px; // Reduce font size for descriptions
+            }
+
+            .vertical-timeline-element-date {
+                font-size: 16px; // Reduce font size for dates
+            }
         }
     }
 }

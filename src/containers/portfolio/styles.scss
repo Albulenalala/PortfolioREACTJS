@@ -1,12 +1,12 @@
 .portfolio {
   &__content {
-    padding: 20px;
+    padding: 30px;
     width: 100%;
 
     &__filter {
       display: inline-block;
       margin: 0 auto;
-      border-radius: 25px;
+      border-radius: 30px;
       border: 1px dashed var(--yellow-theme-main-color);
 
       li {
@@ -55,6 +55,7 @@
               height: inherit;
               object-fit: cover;
               width: 100%;
+              border-radius: 30px;
             }
           }
         }
